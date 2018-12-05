@@ -16,6 +16,10 @@ variable "instance_shape" {
   default = "VM.Standard1.1"
 }
 
+variable "agent_shape" {
+  default = "VM.Standard1.1"
+}
+
 variable "instance_image_ocid" {
   type = "map"
 
@@ -28,4 +32,8 @@ variable "ssh_public_key" {}
 
 variable "pilosa_cluster_size" {
   default = "1"
+}
+
+variable "agent_num" {
+  default = "0"
 }

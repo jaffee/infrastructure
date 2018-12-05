@@ -5,3 +5,7 @@ output "private_ips" {
 output "public_ips" {
   value = ["${oci_core_instance.PilosaInstance.*.public_ip}"]
 }
+
+output "agent_ips" {
+  value = ["${oci_core_instance.AgentInstance.*.public_ip}"]
+}

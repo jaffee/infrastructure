@@ -1,0 +1,17 @@
+tenancy_ocid="ocid1.tenancy.oc1..aaaaaaaa6cbn5b6obdpqkdyycybvvlunlxx3hxmdfxdlxytl4nwzh6giajla"
+compartment_ocid="ocid1.compartment.oc1..aaaaaaaa6pjuy4mc2l62ptvybbim7tk52ed4qriegxjfpedsirrnbx6mavca"
+user_ocid="ocid1.user.oc1..aaaaaaaarlecstgsi3mxkpuku7zckezhqyz3cc76xtwumvgthgfhgr25gdya"
+fingerprint="e5:87:75:37:b2:5c:b8:66:6b:01:4d:43:b8:69:ef:54"
+private_key_path="/Users/jaffee/.oci/oci_api_key.pem"
+
+route_table_ocid="ocid1.routetable.oc1.iad.aaaaaaaakxsuvqxqlclmabxmodz7nrmadiekr7hkmumjqxfh7uj2pkvxbsoa"
+vcn_ocid="ocid1.vcn.oc1.iad.aaaaaaaaz2v3cubzk6nxpfybho5djluth4677uq5ynhn3vopcba2th6jruea"
+subnet_ocid="ocid1.subnet.oc1.iad.aaaaaaaabyw7qie2hivlgbhblxckooircupzh3xar6z6gnw6isu6ulfks2da"
+availability_domain="2"
+
+ssh_public_key="/Users/jaffee/.ssh/id_rsa.pub"
+region="us-ashburn-1"
+pilosa_cluster_size=3
+instance_shape="VM.DenseIO2.16"
+agent_num=1
+agent_shape="VM.Standard2.16"
